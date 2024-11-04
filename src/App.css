@@ -1,0 +1,30 @@
+.centered {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+           /* Full height of the viewport */
+}
+.dropdown-form {
+  display: flex;
+  align-items: center;
+  
+  border: 2px solid #ff385c;
+  border-radius: 25px; /* Rounded border */
+  padding: 10px;
+  background-color: white; /* Background color for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  width: 60%; /* Reduced width to 60% of its parent */
+  max-width: 800px; /* Optional max width */
+}
+
+.dropdown-form select, 
+.dropdown-form input[type="date"] {
+  border: none;
+  border-radius: 20px; /* Rounded border for inputs */
+  padding: 10px;
+  margin-right: 10px; /* Space between inputs */
+  outline: none; /* Remove outline */
+  flex: 1; /* Allow inputs to grow and fill space */
+}
+
+/* src/App.css */
